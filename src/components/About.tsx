@@ -285,7 +285,6 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
           </div>
         </div>
       </div>
-      </div>
     </section>
   );
 };
