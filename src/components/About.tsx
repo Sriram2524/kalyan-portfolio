@@ -29,6 +29,7 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
       }
     };
   }, []);
+
   return (
     <section id="about" className={`py-20 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +51,6 @@ const About: React.FC<AboutProps> = ({ darkMode }) => {
               Passionate about technology and continuous learning
             </p>
           </div>
-        </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Personal Info */}
